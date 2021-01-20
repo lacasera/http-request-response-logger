@@ -33,5 +33,4 @@ class HttpLogger
     {
         $this->logWriter->logResponse($request, $response);
     }
-
 }
