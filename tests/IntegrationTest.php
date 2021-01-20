@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\HttpLogger\Test;
+namespace Lacasera\HttpLogger\Test;
 
 class IntegrationTest extends TestCase
 {

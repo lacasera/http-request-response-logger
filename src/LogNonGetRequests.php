@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\HttpLogger;
+namespace Lacasera\HttpLogger;
 
 use Illuminate\Http\Request;
 

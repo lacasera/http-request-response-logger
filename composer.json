@@ -1,17 +1,18 @@
 {
-    "name": "spatie/laravel-http-logger",
+    "name": "lacasera/http-request-response-logger",
     "description": "A Laravel package to log HTTP requests",
     "keywords": [
         "spatie",
-        "laravel-http-logger"
+        "laravel-http-logger",
+        "response-logger"
     ],
-    "homepage": "https://github.com/spatie/laravel-http-logger",
+    "homepage": "https://github.com/lacasera/laravel-http-logger",
     "license": "MIT",
     "authors": [
         {
-            "name": "Brent Roose",
-            "email": "brent@spatie.be",
-            "homepage": "https://spatie.be",
+            "name": "Agyenim Boateng",
+            "email": "aboateng62@gmail.com",
+            "homepage": "https://barfiagyenim.dev",
             "role": "Developer"
         }
     ],
@@ -25,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\HttpLogger\\": "src"
+            "Lacasera\\HttpLogger\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\HttpLogger\\Test\\": "tests"
+            "Lacasera\\HttpLogger\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -42,10 +43,9 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\HttpLogger\\HttpLoggerServiceProvider"
+                "Lacasera\\HttpLogger\\HttpLoggerServiceProvider"
             ]
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "dev"
 }

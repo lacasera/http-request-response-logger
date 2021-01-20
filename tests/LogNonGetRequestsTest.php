@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\HttpLogger\Test;
+namespace Lacasera\HttpLogger\Test;
 
-use Spatie\HttpLogger\LogNonGetRequests;
+use Lacasera\HttpLogger\LogNonGetRequests;
 
 class LogNonGetRequestsTest extends TestCase
 {

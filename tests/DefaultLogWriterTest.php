@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\HttpLogger\Test;
+namespace Lacasera\HttpLogger\Test;
 
 use Illuminate\Http\UploadedFile;
-use Spatie\HttpLogger\DefaultLogWriter;
+use Lacasera\HttpLogger\DefaultLogWriter;
 
 class DefaultLogWriterTest extends TestCase
 {
