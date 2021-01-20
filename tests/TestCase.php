@@ -6,9 +6,9 @@ use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Lacasera\HttpLogger\HttpLoggerServiceProvider;
 use Lacasera\HttpLogger\Middlewares\HttpLogger;
+use Orchestra\Testbench\TestCase as Orchestra;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 
 class TestCase extends Orchestra

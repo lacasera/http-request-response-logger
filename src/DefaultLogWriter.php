@@ -2,9 +2,7 @@
 
 namespace Lacasera\HttpLogger;
 
-use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Log;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
@@ -48,7 +46,6 @@ class DefaultLogWriter implements LogWriter
         } else {
             Log::error($message);
         }
-
     }
 
     public function flatFiles($file)
